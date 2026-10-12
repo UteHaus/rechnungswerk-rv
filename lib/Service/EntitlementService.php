@@ -25,7 +25,7 @@ class EntitlementService {
 	/** RechnungsWerk-Flags aus der Registry `flags.md` des Backends. */
 	public const FLAGS = [
 		'tenants', 'inbound', 'datev_service', 'api_keys',
-		'girocode', 'sepa_export', 'ai_extract', 'kontingent',
+		'sepa_export', 'ai_extract', 'kontingent',
 	];
 	public const EMPLOYEE_BUCKETS = ['1-5', '6-20', '21-50', '51-200', '200+'];
 	public const DEFAULT_BUCKET = '1-5';
