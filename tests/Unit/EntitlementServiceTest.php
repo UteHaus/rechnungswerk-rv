@@ -100,7 +100,7 @@ class EntitlementServiceTest extends TestCase {
 		$this->assertSame('werkplus', $service->tier());
 		$this->assertTrue($service->hasFeature('tenants'));
 		$this->assertTrue($service->hasFeature('inbound'));
-		$this->assertFalse($service->hasFeature('girocode'));
+		$this->assertFalse($service->hasFeature('sepa_export'));
 		$service->getStatus();
 	}
 
