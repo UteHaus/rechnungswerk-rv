@@ -6730,6 +6730,7 @@ var Hg = { class: "rw-view" }, Ug = { class: "rw-view__head" }, Wg = { class: "r
 		}
 		return (e, r) => (g(), K("div", Hg, [
 			Y("div", Ug, [Y("h2", null, q(U(A)("rechnungswerk", "Berichte")), 1), Y("div", Wg, [H(U(L), {
+				variant: "primary",
 				disabled: !h.value,
 				onClick: r[0] ||= (e) => w("csv")
 			}, {
@@ -6737,6 +6738,7 @@ var Hg = { class: "rw-view" }, Ug = { class: "rw-view__head" }, Wg = { class: "r
 				default: j(() => [z(" " + q(U(A)("rechnungswerk", "CSV-Export")), 1)]),
 				_: 1
 			}, 8, ["disabled"]), H(U(L), {
+				variant: "primary",
 				disabled: !h.value,
 				onClick: r[1] ||= (e) => w("pdf")
 			}, {

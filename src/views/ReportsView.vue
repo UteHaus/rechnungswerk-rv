@@ -3,11 +3,11 @@
 		<div class="rw-view__head">
 			<h2>{{ t('rechnungswerk', 'Berichte') }}</h2>
 			<div class="rw-report-export">
-				<NcButton :disabled="!canExport" @click="exportAs('csv')">
+				<NcButton variant="primary" :disabled="!canExport" @click="exportAs('csv')">
 					<template #icon><FileDelimitedIcon :size="20" /></template>
 					{{ t('rechnungswerk', 'CSV-Export') }}
 				</NcButton>
-				<NcButton :disabled="!canExport" @click="exportAs('pdf')">
+				<NcButton variant="primary" :disabled="!canExport" @click="exportAs('pdf')">
 					<template #icon><FilePdfBoxIcon :size="20" /></template>
 					{{ t('rechnungswerk', 'PDF-Export') }}
 				</NcButton>
